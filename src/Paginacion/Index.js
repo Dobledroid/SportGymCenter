@@ -16,7 +16,7 @@ function Index() {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src="/images/carrusel/1.jpg" // Ruta de la primera imagen del carrusel
+                src="/images/Carrusel/1.jpg" // Ruta de la primera imagen del carrusel
                 alt="Primera imagen"
               />
               {/* <Carousel.Caption>
