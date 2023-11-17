@@ -1,0 +1,55 @@
+/* Footer.css */
+
+.Footer {
+  background-color: #000000;
+}
+
+.footer-menu {
+  text-align: center; /* Alinea los elementos en el centro */
+}
+
+.footer-link {
+  color: white; /* Color de texto blanco */
+  text-decoration: none; /* Quita la subrayado predeterminado de los enlaces */
+  font-size: 0.8em; /* Tamaño de fuente más pequeño */
+  margin: 0 10px; /* Ajusta el margen derecho e izquierdo según sea necesario */
+}
+
+
+.footer-link:hover {
+  text-decoration: none; /* Quita la subrayado al pasar el mouse */
+}
+
+.middle-link {
+  margin: 0 10px; /* Ajusta el margen derecho e izquierdo para el enlace "Términos y condiciones" */
+}
+
+.footer-service-menu-item {
+  display: inline-block; /* Muestra los elementos en línea */
+}
+
+/* Consulta de medios para pantallas con un ancho máximo de 425px */
+@media (max-width: 767.98px) {
+  .footer-menu {
+    text-align: left; /* Ajusta la alineación a la izquierda */
+    margin: 0;
+    padding: 10px 0;
+  }
+  .middle-link {
+    margin: 0 0; /* Ajusta el margen derecho e izquierdo para el enlace "Términos y condiciones" */
+  }
+  .footer-service-menu-item {
+    display: block; /* Cambia a bloque para que los elementos se enlisten verticalmente */
+    margin-bottom: 10px; /* Ajusta el margen inferior entre los elementos en la lista */
+  }
+}
+
+/* Puedes ajustar los márgenes y el relleno según tus necesidades */
+.Footer h5 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+

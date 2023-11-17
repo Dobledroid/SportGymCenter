@@ -1,0 +1,47 @@
+/* UpperFooter.css */
+
+.UpperFooter {
+  background-color: #333; /* Cambia el color de fondo según tus preferencias */
+  padding: 20px 0;
+}
+
+.equal-width-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-column {
+  flex: 1;
+  margin: 0 10px; /* Ajusta el margen entre las columnas según tus preferencias */
+}
+
+.section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.section h5 {
+  font-size: 1.5em; /* Ajusta el tamaño del encabezado según tus preferencias */
+  margin-bottom: 10px;
+  color: #fff; /* Cambia el color del texto según tus preferencias */
+}
+
+.section p {
+  margin: 5px 0;
+  color: #ccc; /* Cambia el color del texto según tus preferencias */
+}
+
+.text-white {
+  color: white;
+}
+
+
+.enlace-facebook {
+  text-decoration: none; /* Quita el subrayado */
+  color: #ccc; /* Cambia el color del enlace a tu preferencia */
+}
+
+.enlace-facebook:hover {
+  /* Estilos adicionales cuando el enlace está en estado de "hover" (sobre) */
+  text-decoration: underline; /* Puedes agregar un subrayado cuando el mouse está sobre el enlace si lo deseas */
+}
