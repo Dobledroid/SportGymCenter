@@ -28,7 +28,7 @@ function Index() {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src="/images/carrusel/2.jpg" // Ruta de la primera imagen del carrusel
+                src="/images/Carrusel/2.jpg" // Ruta de la primera imagen del carrusel
                 alt="Primera imagen"
               />
               {/* <Carousel.Caption>
@@ -39,7 +39,7 @@ function Index() {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src="/images/carrusel/3.jpg" // Ruta de la primera imagen del carrusel
+                src="/images/Carrusel/3.jpg" // Ruta de la primera imagen del carrusel
                 alt="Primera imagen"
               />
               {/* <Carousel.Caption>
